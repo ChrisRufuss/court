@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans selection:bg-amber-200 selection:text-amber-900;
+  }
+}
+
+/* Custom Scrollbar for Legal Document Viewers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Legal Document Typography */
+.legal-document-text {
+  font-family: Georgia, Cambria, 'Times New Roman', serif;
+  line-height: 1.8;
+  color: #1e293b;
+}
+
+.citation-highlight {
+  background-color: #fef08a;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: 500;
+  border-bottom: 2px solid #ca8a04;
+}
+
+.contradiction-highlight {
+  background-color: #fecdd3;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: 500;
+  border-bottom: 2px solid #e11d48;
+}

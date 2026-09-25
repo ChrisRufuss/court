@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DEMO_MODE=true
+      - DATABASE_URL=postgresql://lexanalyze:lexanalyze_secret_2026@postgres:5432/lexanalyze_db
+      - SECRET_KEY=lexanalyze_super_secret_jwt_key_2026
+    depends_on:
+      - postgres
+    volumes:
+      - ./backend:/app/backend
+      - ./legal_knowledge:/app/legal_knowledge
+      - ./demo_data:/app/demo_data
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: lexanalyze
+      POSTGRES_PASSWORD: lexanalyze_secret_2026
+      POSTGRES_DB: lexanalyze_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "STAT-IND-BNS-281",
+    "jurisdiction": "India",
+    "statute": "Bharatiya Nyaya Sanhita, 2023 (IPC Sec 279 Equivalent)",
+    "section_number": "Section 281",
+    "title": "Rash driving or riding on a public way",
+    "description": "Whoever drives any vehicle, or rides, on any public way in a manner so rash or negligent as to endanger human life, or to be likely to cause hurt or injury to any other person, shall be punished with imprisonment or fine.",
+    "elements": [
+      "Driving or riding a vehicle",
+      "Operation occurred on a public way",
+      "Manner of driving was rash or negligent",
+      "Act endangered human life or was likely to cause hurt/injury"
+    ],
+    "exceptions": [
+      "Acts committed on strictly private land not open to public traffic",
+      "Involuntary mechanical failure without prior negligence of the driver"
+    ],
+    "penalty": "Imprisonment of either description for a term which may extend to 6 months, or with fine which may extend to 1,000 rupees, or with both.",
+    "effective_date": "2024-07-01",
+    "amendment_date": "2023-12-25",
+    "version": "1.0 - Bharatiya Nyaya Sanhita Enactment",
+    "source_name": "Legislative Department, Ministry of Law and Justice, Govt of India",
+    "source_url": "https://eGazette.gov.in/BNS_2023.pdf",
+    "keywords": ["rash driving", "negligence", "public way", "motor vehicle accident", "endangering life", "road traffic"],
+    "related_provisions": ["Section 125 BNS", "Section 184 MV Act"]
+  },
+  {
+    "id": "STAT-IND-BNS-125B",
+    "jurisdiction": "India",
+    "statute": "Bharatiya Nyaya Sanhita, 2023 (IPC Sec 338 Equivalent)",
+    "section_number": "Section 125(b)",
+    "title": "Causing grievous hurt by act endangering life or personal safety of others",
+    "description": "Whoever causes grievous hurt to any person by doing any act so rashly or negligently as to endanger human life, or the personal safety of others, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine.",
+    "elements": [
+      "Grievous hurt was suffered by a person (e.g. fracture, severe organ injury)",
+      "Hurt was caused by the accused's act",
+      "Act was done rashly or negligently",
+      "Act endangered human life or personal safety"
+    ],
+    "exceptions": [
+      "Consent given in good faith for medical intervention",
+      "Accident without criminal intention or knowledge"
+    ],
+    "penalty": "Imprisonment up to 2 years, or fine up to 10,000 rupees, or both.",
+    "effective_date": "2024-07-01",
+    "amendment_date": "2023-12-25",
+    "version": "1.0",
+    "source_name": "Ministry of Law and Justice, India",
+    "source_url": "https://eGazette.gov.in/BNS_2023.pdf",
+    "keywords": ["grievous hurt", "fracture", "negligence", "medical injury", "accident", "hospitalization"],
+    "related_provisions": ["Section 281 BNS", "Section 106 BNS"]
+  },
+  {
+    "id": "STAT-IND-BNS-106",
+    "jurisdiction": "India",
+    "statute": "Bharatiya Nyaya Sanhita, 2023 (IPC Sec 304A Equivalent)",
+    "section_number": "Section 106(1)",
+    "title": "Causing death by negligence",
+    "description": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either description for a term which may extend to five years, and shall also be liable to fine.",
+    "elements": [
+      "Death of a human being occurred",
+      "Death was directly caused by the act of the accused",
+      "Act was rash or negligent",
+      "Act does not amount to culpable homicide (lack of intention to kill)"
+    ],
+    "exceptions": [
+      "Supervening medical negligence by third parties breaking causation",
+      "Pure unpreventable mechanical act of god"
+    ],
+    "penalty": "Imprisonment up to 5 years and fine.",
+    "effective_date": "2024-07-01",
+    "amendment_date": "2023-12-25",
+    "version": "1.0",
+    "source_name": "Ministry of Law and Justice, India",
+    "source_url": "https://eGazette.gov.in/BNS_2023.pdf",
+    "keywords": ["death by negligence", "fatal accident", "post mortem", "negligent act", "casualty"],
+    "related_provisions": ["Section 281 BNS", "Section 125 BNS"]
+  },
+  {
+    "id": "STAT-IND-MVA-134",
+    "jurisdiction": "India",
+    "statute": "Motor Vehicles Act, 1988 (as amended 2019)",
+    "section_number": "Section 134",
+    "title": "Duty of driver in case of accident and injury to a person",
+    "description": "When any person is injured or any property of a third party is damaged as a result of an accident in which a motor vehicle is involved, the driver of the vehicle or other person in charge of the vehicle shall take all reasonable steps to secure medical attention for the injured person and report to the nearest police station.",
+    "elements": [
+      "Motor vehicle involved in accident",
+      "Injury caused to person or property damage caused",
+      "Driver failed to secure immediate medical attention or convey injured to hospital",
+      "Driver failed to inform nearest police officer/station within 24 hours"
+    ],
+    "exceptions": [
+      "Driver prevented by mob violence or imminent threat of physical assault from remaining at scene (must report to police immediately upon reaching safety)"
+    ],
+    "penalty": "Fine up to 5,000 rupees or imprisonment up to 3 months for first offence.",
+    "effective_date": "2019-09-01",
+    "amendment_date": "2019-08-09",
+    "version": "2019 Amendment Act",
+    "source_name": "Ministry of Road Transport and Highways, India",
+    "source_url": "https://morth.nic.in/motor-vehicles-amendment-act-2019",
+    "keywords": ["hit and run", "duty of driver", "medical aid", "police reporting", "accident duty"],
+    "related_provisions": ["Section 187 MV Act", "Section 281 BNS"]
+  },
+  {
+    "id": "STAT-IND-MVA-185",
+    "jurisdiction": "India",
+    "statute": "Motor Vehicles Act, 1988 (as amended 2019)",
+    "section_number": "Section 185",
+    "title": "Driving by a drunken person or by a person under the influence of drugs",
+    "description": "Whoever, while driving, or attempting to drive, a motor vehicle has in his blood, a quantity of alcohol exceeding 30 mg. per 100 ml. of blood detected in a test by a breath analyser or blood test, shall be punishable.",
+    "elements": [
+      "Driving or attempting to drive motor vehicle",
+      "Blood alcohol content (BAC) exceeding 30 mg per 100 ml blood",
+      "Detection verified by breath analyzer, blood lab analysis, or clinical medical test"
+    ],
+    "exceptions": [
+      "Administered under valid medical prescription without warning against driving"
+    ],
+    "penalty": "First offence: Imprisonment up to 6 months or fine up to 10,000 rupees. Subsequent offence: Imprisonment up to 2 years or fine up to 15,000 rupees.",
+    "effective_date": "2019-09-01",
+    "amendment_date": "2019-08-09",
+    "version": "2019 Amendment Act",
+    "source_name": "Ministry of Road Transport and Highways, India",
+    "source_url": "https://morth.nic.in/motor-vehicles-amendment-act-2019",
+    "keywords": ["drunk driving", "alcohol", "breath analyzer", "BAC test", "intoxication", "blood test"],
+    "related_provisions": ["Section 281 BNS", "Section 184 MV Act"]
+  },
+  {
+    "id": "STAT-IND-BSA-45",
+    "jurisdiction": "India",
+    "statute": "Bharatiya Sakshya Adhiniyam, 2023 (Indian Evidence Act Sec 45 Equivalent)",
+    "section_number": "Section 39 / 45",
+    "title": "Opinions of experts",
+    "description": "When the Court has to form an opinion upon a point of foreign law or of science or art, or as to identity of handwriting or finger impressions, the opinions upon that point of persons specially skilled in such science, art or law are relevant facts.",
+    "elements": [
+      "Court requires technical/scientific evaluation",
+      "Witness possesses special skill, qualification, or medical degree",
+      "Opinion directly concerns medical report, post-mortem, chemical analysis, or forensic finding"
+    ],
+    "exceptions": [
+      "Opinion is purely speculative or unsupported by physical evidence/reasoning"
+    ],
+    "penalty": "N/A - Procedural Law of Evidence",
+    "effective_date": "2024-07-01",
+    "amendment_date": "2023-12-25",
+    "version": "1.0",
+    "source_name": "Ministry of Law and Justice, India",
+    "source_url": "https://eGazette.gov.in/BSA_2023.pdf",
+    "keywords": ["medical report", "expert opinion", "forensic report", "doctor testimony", "evidence"],
+    "related_provisions": ["Section 125 BNS"]
+  }
+]

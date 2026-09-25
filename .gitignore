@@ -1,0 +1,33 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm
+*.log
+
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+lexanalyze.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
